@@ -1,0 +1,5 @@
+add_executable(MUUM main.cpp)
+
+set_property(TARGET MUUM PROPERTY CXX_STANDARD 14)
+install(TARGETS MUUM DESTINATION ${MUUM_INSTALL_DIR})
+
