@@ -39,7 +39,7 @@ int nobjects = 0;
 
 class Colour:public vec {
 public:
-	double r, g, b; //this stupid set is for compatibility.
+	double r, g, b; //this stupid setting is for compatibility.
 	double* ptr_r = this->m[1].data() + 1;
 	double* ptr_g = this->m[2].data() + 1;
 	double* ptr_b = this->m[3].data() + 1;

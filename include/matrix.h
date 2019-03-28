@@ -339,6 +339,7 @@ public:
 		if(l==4) cout<< " buffer" << m[4][1] <<endl;
 		else if (l ==3) cout <<endl;
 	}
+
 };
 
 //vec's operator
@@ -348,6 +349,10 @@ inline vec operator+( const vec &a, const vec &b )
 {
 	return vec { a.m[1][1] + b.m[1][1], a.m[2][1] + b.m[2][1],
 			   a.m[3][1] + b.m[3][1] };
+}
+inline void operator+=( vec &a, const vec &b )
+{
+	a = a+b;
 }
 inline vec operator-( const vec &a, const vec &b )
 {

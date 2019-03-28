@@ -67,6 +67,7 @@ light_t light;
 Colour background;
 
 void testMatrix ( );
+void testColour( );
 int main(int argc, char** argv) {
 	/* set the background color */
 
@@ -107,7 +108,7 @@ int main(int argc, char** argv) {
 	//initGLUT (argc, argv, Window);
 	//glutMainLoop ();
 	//return 0;
-	testMatrix ( );
+	testColour ( );
 }
 
 void testMatrix ( )
@@ -128,9 +129,10 @@ void testObject( )
 
 void testColour( )
 {
-	Coulor c = Colour(3,2,1);
+	Colour c = Colour(3,2,1);
+	Colour d = Colour(c);
+	c += d;
 	c.print();
-
 }
 
 void Draw() {
