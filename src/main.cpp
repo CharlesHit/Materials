@@ -1,4 +1,5 @@
-#include "GL/freeglut.h"
+//#include "GL/freeglut.h"
+#include "GLUT/glut.h"
 #include <math.h>
 #include <iostream>
 #include <stdio.h>
@@ -33,9 +34,7 @@ void initGLUT(int argc, char** argv, window_t& window) {
 }
 
 void SetCurrentColorX(unsigned int r, unsigned int g, unsigned int b) {
-	foregroundColor.r = r;
-	foregroundColor.g = g;
-	foregroundColor.b = b;
+	foregroundColor = Colour(r,g,b);
 }
 
 void SetPixelX(window_t& window, int i, int j) {
@@ -65,21 +64,21 @@ void QuitX() {
 Camera C;
 window_t Window;
 light_t light;
-color_t background;
+Colour background;
 
 void testMatrix ( );
 int main(int argc, char** argv) {
 	/* set the background color */
 
-	//background = color_t(0.0, 0.0, 0.0);
+	//background = Colour(0.0, 0.0, 0.0);
 
 	///* set up light position, intensity, and color */
 
 	//dmatrix_t m;
 	//vec light_position = vec (Lx,Ly,Lz,1);
 
-	//color_t light_intensity(1.0, 1.0, 1.0);
-	//color_t light_color(1.0, 1.0, 1.0);
+	//Colour light_intensity(1.0, 1.0, 1.0);
+	//Colour light_color(1.0, 1.0, 1.0);
 	//light = *build_light(&light, light_position, light_color, light_intensity);
 
 	///* build display window and synthetic camera */
@@ -92,9 +91,9 @@ int main(int argc, char** argv) {
 	//m = mat();
 	//m.translated (0.0, 0.0, 0.0);
 
-	//color_t specular_color = color_t(1.0, 1.0, 1.0);
-	//color_t diffuse_color = color_t(0.0, 0.0, 1.0);
-	//color_t ambient_color = color_t(0.0, 0.0, 1.0);
+	//Colour specular_color = Colour(1.0, 1.0, 1.0);
+	//Colour diffuse_color = Colour(0.0, 0.0, 1.0);
+	//Colour ambient_color = Colour(0.0, 0.0, 1.0);
 
 	//double specular_coeff = 0.4;
 	//double diffuse_coeff = 0.4;
@@ -121,7 +120,17 @@ void testMatrix ( )
 
 	A.inverse( ).print ( );
 
-	system ( "pause" );
+	//system ( "pause" );
+}
+
+void testObject( )
+{ }
+
+void testColour( )
+{
+	Coulor c = Colour(3,2,1);
+	c.print();
+
 }
 
 void Draw() {
@@ -131,12 +140,12 @@ void Draw() {
 
 	dmatrix_t direction;
 	int i, j;
-	color_t pixel;
+	Colour pixel;
 
 	for (i = 0; i < Window.width; i++) {
 		for (j = 0; j < Window.height; j++) {
-			direction = ray_direction(C, &Window, height, width, (double)i, (double)j);
-			pixel = shade(&light, object, C.E, direction, pixel, background, 3);
+			direction = *ray_direction(C, &Window, height, width, (double)i, (double)j);
+			pixel = shade(&light, object, C.E, &direction, pixel, background, 3);
 
 			//pixel.r = 1;
 			//pixel.g = 1;
@@ -144,7 +153,7 @@ void Draw() {
 
 			SetCurrentColorX((int)pixel.r, (int)pixel.g, (int)pixel.b);
 			SetPixelX(Window, i, Window.height - (j + 1));
-			delete_dmatrix(direction);
+			delete_dmatrix(&direction);
 		}
 	}
 }

@@ -23,7 +23,7 @@ public:
 	vec u, v;
 
 
-	Camera::Camera ( )
+	Camera ( )
 	{	
 		E = Eye;
 		G = Gaze;
@@ -37,38 +37,29 @@ public:
 unsigned char frame[windowH*windowW * 3];
 int nobjects = 0;
 
-struct color_t {
-	double r, g, b;
+class Colour:public vec {
+public:
+	double r, g, b; //this stupid set is for compatibility.
+	double* ptr_r = this->m[1].data() + 1;
+	double* ptr_g = this->m[2].data() + 1;
+	double* ptr_b = this->m[3].data() + 1;
 
-	color_t() {}
-	color_t(double _r, double _g, double _b) {
-		r = _r;
-		g = _g;
-		b = _b;
-	}
-	color_t(const color_t& initializer) {
-		r = initializer.r;
-		g = initializer.g;
-		b = initializer.b;
-	}
-
-	color_t operator*(double scalar) {
-		return color_t(r * scalar, g * scalar, b * scalar);
-	}
-
-	color_t operator+(const color_t& col) {
-		return color_t(r + col.r, g + col.g, b + col.b);
+	inline Colour() {}
+	inline Colour(double _r, double _g, double _b): r(_r), g(_g), b(_b) {
+		*ptr_r = r;
+		*ptr_g = g;
+		*ptr_b = b;
 	}
 };
 
 struct light_t {
 	vec position;
-	color_t color;
-	color_t intensity;
+	Colour color;
+	Colour intensity;
 };
 
 // Create/allocate a light
-light_t *build_light ( light_t *light, vec position, color_t color, color_t intensity )
+light_t *build_light ( light_t *light, vec position, Colour color, Colour intensity )
 {
 	light->position = vec(position);
 	light->color.r = color.r;
@@ -237,10 +228,10 @@ dmatrix_t *vector_to_center_of_projection ( dmatrix_t *intersection, dmatrix_t *
 	return dmat_normalize ( dmat_sub ( e, intersection ) );
 }
 
-dmatrix_t *vector_to_specular_reflection ( vec N, vec S )
+dmatrix_t vector_to_specular_reflection ( vec N, vec S )
 {
 
-	return &((-S) + N.scalared(2.0* ( N.dot(S) ) ) ).normalized().toMat();
+	return ((-S) + N.scalared(2.0* ( N.dot(S) ) ) ).normalized().toMat();
 }
 
 class object_t
@@ -248,7 +239,7 @@ class object_t
 public:
 	int type;
 	dmatrix_t M, Minv;
-	color_t specular_color, diffuse_color, ambient_color;
+	Colour specular_color, diffuse_color, ambient_color;
 	double density, reflectivity, specular_coeff, diffuse_coeff, ambient_coeff, f;
 
 	double ( *intersection )( vec, vec );
@@ -259,9 +250,9 @@ public:
 	object_t
 	( int object_type,
 	  dmatrix_t m,
-	  color_t ambient,
-	  color_t diffuse,
-	  color_t specular,
+	  Colour ambient,
+	  Colour diffuse,
+	  Colour specular,
 	  double ambient_coeff,
 	  double diffuse_coeff,
 	  double specular_coeff,
@@ -297,10 +288,10 @@ public:
 	}
 };
 
-color_t foregroundColor;
+Colour foregroundColor;
 object_t object[N_OBJECTS];
 
-color_t shade ( light_t *light, object_t *object, vec e, dmatrix_t *d, color_t color, color_t background, int level )
+Colour shade ( light_t *light, object_t *object, vec e, dmatrix_t *d, Colour color, Colour background, int level )
 {
 
 	color.r = 0.0;
@@ -323,7 +314,7 @@ int shadowed ( vec e, vec d )
 	return h != -1;
 }
 
-object_t *build_object ( int object_type, dmatrix_t *M, color_t ambient_color, color_t diffuse_color, color_t specular_color, double ambient_coeff, double diffuse_coeff, double specular_coeff, double f, double reflectivity )
+object_t *build_object ( int object_type, dmatrix_t *M, Colour ambient_color, Colour diffuse_color, Colour specular_color, double ambient_coeff, double diffuse_coeff, double specular_coeff, double f, double reflectivity )
 {
 
 	object_t *object;
@@ -337,9 +328,9 @@ object_t *build_object ( int object_type, dmatrix_t *M, color_t ambient_color, c
 	dmat_alloc ( &object->Minv, 4, 4 );
 	object->Minv = dmat_inverse ( object->M );
 
-	object->specular_color = color_t ( specular_color );
-	object->diffuse_color = color_t ( diffuse_color );
-	object->ambient_color = color_t ( ambient_color );
+	object->specular_color = Colour ( specular_color );
+	object->diffuse_color = Colour ( diffuse_color );
+	object->ambient_color = Colour ( ambient_color );
 
 	object->specular_coeff = specular_coeff;
 	object->diffuse_coeff = diffuse_coeff;

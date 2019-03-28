@@ -16,7 +16,7 @@
 #include <vector>
 
 #define quote(x) #x
-#define dmatrix_t mat
+//#define dmatrix_t mat
 
 using namespace std;
 
