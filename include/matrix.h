@@ -117,6 +117,12 @@ public:
 		m[3][1] = z;
 		m[4][1] = buffer;
 	}
+	inline vec ( const vec &v )
+	{
+		m = v.m;
+		l = v.l;
+		c = v.c;
+	}
 
 	inline ~vec ()
 	{

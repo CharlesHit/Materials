@@ -504,7 +504,7 @@ color_t background;
 //	return 0;
 //}
 
-int main ( )
+void testMatrix ( )
 {
 	mat A = mat (3,3);
 	mat B = mat ( );
