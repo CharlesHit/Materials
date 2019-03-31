@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Charles\iCloudDrive\Project\Mus_World_v0\bin_win\CMakeFiles\5225fabf2b98b4e54f4499551557a78c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1CE86794-7A83-3A4D-87BD-DD5F0DCEA941}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

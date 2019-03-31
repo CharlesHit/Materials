@@ -1,0 +1,5 @@
+C:/Users/Charles/iCloudDrive/Project/Mus_World_v0/bin_win/CMakeFiles/INSTALL.dir
+C:/Users/Charles/iCloudDrive/Project/Mus_World_v0/bin_win/CMakeFiles/ALL_BUILD.dir
+C:/Users/Charles/iCloudDrive/Project/Mus_World_v0/bin_win/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Charles/iCloudDrive/Project/Mus_World_v0/bin_win/src/CMakeFiles/MUUM.dir
+C:/Users/Charles/iCloudDrive/Project/Mus_World_v0/bin_win/src/CMakeFiles/INSTALL.dir

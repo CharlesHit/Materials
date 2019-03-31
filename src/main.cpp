@@ -1,5 +1,18 @@
-//#include "GL/freeglut.h"
-#include "GLUT/glut.h"
+#ifdef _WIN32
+#	include "GL/freeglut.h"
+#elif def __APPLE__
+#	include "GLUT/glut.h"
+#else 
+#	error PLZ check and decide header file manually
+#endif
+
+/*
+	author: Mu.H., based on works from K.Winsdor.
+	date: Mu, 19 - 3 - 29 and earlier
+
+	All right reserved.*/
+
+
 #include <math.h>
 #include <iostream>
 #include <stdio.h>
@@ -109,6 +122,7 @@ int main(int argc, char** argv) {
 	//glutMainLoop ();
 	//return 0;
 	testColour ( );
+	system ( "pause" );
 }
 
 void testMatrix ( )

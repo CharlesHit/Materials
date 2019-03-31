@@ -16,21 +16,12 @@ struct window_t
 
 class Camera {
 public:
-	vec UP;
-	vec E;
-	vec G;
-	vec n;//n = GE = E - G
-	vec u, v;
-
-
-	Camera ( )
+	vec UP, E, G, u, v, n;//n = GE = E - G
+	Camera (vec Eye, vec Gaze, vec Up):E(Eye), G(Gaze), UP(Up)
 	{	
-		E = Eye;
-		G = Gaze;
-		n = E - G; n.normalized();
-		UP = Up;
-		u = UP; u.cross(n).normalized();
-		v = n; v.cross(u).normalized();
+		n = E - G; n = n.normalized();
+		u = UP.cross(n).normalized();
+		v = n.cross(u).normalized();
 	}
 };
 
@@ -50,7 +41,29 @@ public:
 		*ptr_g = g;
 		*ptr_b = b;
 	}
+	inline to_sRGB() const {
+		const double a = 0.055f;
+		const double b = 1.f / 2.4f;
+		Colour srgb;
+		for (int i = 0; i < 3; ++i)
+			if ((*this)[i] <= 0.0031308f)srgb[i] = 12.92f * (*this)[i];
+			else srgb[i] = (1.f + a) * std::pow((*this)[i], b) - a;
+		return srgb;
+	}
+	inline bool isBlack() const {
+		return *ptr_r == 0 && *ptr_g == 0 && *ptr_b == 0;
+	}
+	inline double luminance() const {
+		return 0.2126f * *ptr_r + 0.7152f * *ptr_g + 0.0722f * *ptr_b;
+	}
 };
+
+std::ostream& operator<<(std::ostream &os, const Colorf &c){
+	os << "Colorf: [r = " << c.* ptr_r << ", g = " << c.* ptr_r
+		<< ", b = " << c.* ptr_r << "] ";
+	return os;
+}
+
 
 struct light_t {
 	vec position;
