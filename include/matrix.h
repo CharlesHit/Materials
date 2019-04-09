@@ -340,7 +340,26 @@ public:
 		else if (l ==3) cout <<endl;
 	}
 
+	//vector as an array
+	inline const double& operator[](int i) const;
+
 };
+
+const double &vec::operator[] ( int i ) const
+{
+	switch (i){
+		case 1:
+			return this->m[1][1];
+		case 2:
+			return this->m[1][2];;
+		case 3:
+			return this->m[1][3];;
+		case 4:
+			return this->m[1][4];;
+		default:
+			return this->m[1][1];;
+	}
+}
 
 //vec's operator
 
@@ -391,35 +410,7 @@ inline vec operator-( const vec &v )
 {
 	return vec { -v.m[1][1], -v.m[2][1], -v.m[3][1] };
 }
-//vector as an array
-inline double& operator[](int i){
-	switch (i){
-		case 1:
-			return this->m[1][1];
-		case 2:
-			return this->m[1][2];;
-		case 3:
-			return this->m[1][3];;
-		case 4:
-			return this->m[1][4];;
-		default:
-			return this->m[1][1];;
-	}
-}
-inline const double& operator[](int i) const {
-	switch (i){
-		case 1:
-			return this->m[1][1];
-		case 2:
-			return this->m[1][2];;
-		case 3:
-			return this->m[1][3];;
-		case 4:
-			return this->m[1][4];;
-		default:
-			return this->m[1][1];;
-	}
-}
+
 //equal
 bool operator==(const vec &a, const vec &b){
 	return a.m[1][1] == b.m[1][1] && a.m[1][2] == b.m[1][2] && a.m[1][3] == b.m[1][3] && a.m[1][4] == b.m[1][4] ;
@@ -550,7 +541,7 @@ inline bool operator==(const dmatrix_t &a, const dmatrix_t &b){
 	if(a.c!=b.c || a.l!=b.l)return false;
 	for(int i = 1; i <= a.c; i++)
 		for(int j = 1; j <= a.l; j++)
-			if a.m[j][i] != b.m[j][i]
+			if (a.m[j][i] != b.m[j][i])
 				return false;
 	return true;
 }

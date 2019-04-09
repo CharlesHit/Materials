@@ -1,9 +1,9 @@
 #ifdef _WIN32
 #	include "GL/freeglut.h"
-#elif def __APPLE__
-#	include "GLUT/glut.h"
+//#elif def __APPLE__
+//#	include "GLUT/glut.h"
 #else 
-#	error PLZ check and decide header file manually
+#	include "GLUT/glut.h"
 #endif
 
 /*
@@ -75,7 +75,7 @@ void QuitX() {
 }
 
 Camera C;
-window_t Window;
+window_t Window = window_t(windowW, windowH);
 light_t light;
 Colour background;
 
@@ -84,45 +84,42 @@ void testColour( );
 int main(int argc, char** argv) {
 	/* set the background color */
 
-	//background = Colour(0.0, 0.0, 0.0);
+	background = Colour(0.0, 0.0, 0.0);
 
-	///* set up light position, intensity, and color */
+	/* set up light position, intensity, and color */
 
-	//dmatrix_t m;
-	//vec light_position = vec (Lx,Ly,Lz,1);
+	dmatrix_t m;
+	vec light_position = vec (Lx,Ly,Lz,1);
 
-	//Colour light_intensity(1.0, 1.0, 1.0);
-	//Colour light_color(1.0, 1.0, 1.0);
-	//light = *build_light(&light, light_position, light_color, light_intensity);
+	Colour light_intensity(1.0, 1.0, 1.0);
+	Colour light_color(1.0, 1.0, 1.0);
+	light = *build_light(&light, light_position, light_color, light_intensity);
 
-	///* build display window and synthetic camera */
+	/* build display window and synthetic camera */
 
-	//Window = window_t();
-	//C = Camera();
+	C = Camera();
 
-	///* build a sphere */
+	/* build a sphere */
 
-	//m = mat();
-	//m.translated (0.0, 0.0, 0.0);
+	m = mat();
+	m.translated (0.0, 0.0, 0.0);
 
-	//Colour specular_color = Colour(1.0, 1.0, 1.0);
-	//Colour diffuse_color = Colour(0.0, 0.0, 1.0);
-	//Colour ambient_color = Colour(0.0, 0.0, 1.0);
+	Colour specular_color = Colour(1.0, 1.0, 1.0);
+	Colour diffuse_color = Colour(0.0, 0.0, 1.0);
+	Colour ambient_color = Colour(0.0, 0.0, 1.0);
 
-	//double specular_coeff = 0.4;
-	//double diffuse_coeff = 0.4;
-	//double ambient_coeff = 0.2;
+	double specular_coeff = 0.4;
+	double diffuse_coeff = 0.4;
+	double ambient_coeff = 0.2;
 
-	//double f = 10.0;
-	//double reflectivity = 0.0;
+	double f = 10.0;
+	double reflectivity = 0.0;
 
-	//object[nobjects] = object_t(SPHERE, m, ambient_color, diffuse_color, specular_color, ambient_coeff, diffuse_coeff, specular_coeff, f, reflectivity);
+	object[nobjects] = object_t(SPHERE, m, ambient_color, diffuse_color, specular_color, ambient_coeff, diffuse_coeff, specular_coeff, f, reflectivity);
 
-	//initGLUT (argc, argv, Window);
-	//glutMainLoop ();
-	//return 0;
-	testColour ( );
-	system ( "pause" );
+	initGLUT (argc, argv, Window);
+	glutMainLoop ();
+	return 0;
 }
 
 void testMatrix ( )
@@ -144,7 +141,7 @@ void testObject( )
 void testColour( )
 {
 	Colour c = Colour(3,2,1);
-	Colour d = Colour(c);
+	Colour d = c;
 	c += d;
 	c.print();
 }
