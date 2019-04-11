@@ -12,20 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec5044ed-d7f8-4a9c-93b2-12274350aeb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Kyles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../News/.idea/News.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../News/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../News/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../News/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main2.h" beforeDir="false" afterPath="$PROJECT_DIR$/main2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/原版/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/原版/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../News/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.INSTALL_force.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.generate.stamp.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/eb948e8b1aad34116fd531730f06eea1/.INSTALL_force.rule.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../include/object.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1163">
-              <caret line="903" column="1" lean-forward="true" selection-start-line="903" selection-start-column="1" selection-end-line="903" selection-end-column="1" />
+            <state relative-caret-position="2199">
+              <caret line="962" selection-start-line="962" selection-end-line="962" />
               <folding>
                 <element signature="e#0#88#0" />
                 <element signature="e#1065#1176#1" />
@@ -71,7 +65,6 @@
                 <element signature="e#4601#4955#1" />
                 <element signature="e#5325#5732#0" />
                 <element signature="e#5734#5788#0" />
-                <element signature="e#5790#6104#0" />
                 <element signature="e#6106#6132#0" />
                 <element signature="e#6134#6957#0" />
                 <element signature="e#6959#7218#0" />
@@ -104,7 +97,6 @@
                 <element signature="e#16131#17728#0" />
                 <element signature="e#17730#21403#0" />
                 <element signature="e#22742#24297#0" />
-                <element signature="e#24299#24317#0" />
                 <element signature="e#24947#25049#0" />
               </folding>
             </state>
@@ -114,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="522" column="59" selection-start-line="522" selection-start-column="59" selection-end-line="522" selection-end-column="59" />
+            <state relative-caret-position="760">
+              <caret line="222" column="12" lean-forward="true" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
               <folding>
                 <element signature="e#44#62#0" expanded="true" />
               </folding>
@@ -126,8 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main2.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+            <state relative-caret-position="766">
+              <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
               <folding>
                 <element signature="e#87#109#0" expanded="true" />
               </folding>
@@ -279,8 +271,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ve</find>
-      <find>fra</find>
       <find>draw</find>
       <find>drawpix</find>
       <find>dot</find>
@@ -309,6 +299,8 @@
       <find>Option</find>
       <find>nChars</find>
       <find>640</find>
+      <find>W</find>
+      <find>setP</find>
     </findStrings>
     <replaceStrings>
       <replace>vec2</replace>
@@ -325,9 +317,9 @@
         <option value="$PROJECT_DIR$/matrix.h" />
         <option value="$PROJECT_DIR$/Super_matrix.h" />
         <option value="$PROJECT_DIR$/matrix_ori.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main2.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/main2.cpp" />
       </list>
     </option>
@@ -399,18 +391,18 @@
       <option name="presentableId" value="Default" />
       <updated>1554798241374</updated>
       <workItem from="1554798242640" duration="12233000" />
-      <workItem from="1554851049699" duration="26052000" />
+      <workItem from="1554851049699" duration="28205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38285000" />
+    <option name="totallyTimeSpent" value="40438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-1557" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1618497" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07225434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,7 +413,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.46486485" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.36864865" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -439,20 +431,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>580</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/main2.cpp</url>
+          <line>520</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="dmat_sub(&amp;Camera-&gt;E, &amp;Camera-&gt;G)" language="ObjectiveC" />
+        <watch expression="frame" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>frame</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>dmat_sub(&amp;Camera-&gt;E, &amp;Camera-&gt;G)</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -636,10 +634,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main2.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="53" column="23" lean-forward="true" selection-start-line="53" selection-start-column="23" selection-end-line="53" selection-end-column="23" />
+          <folding>
+            <element signature="e#87#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1163">
-          <caret line="903" column="1" lean-forward="true" selection-start-line="903" selection-start-column="1" selection-end-line="903" selection-end-column="1" />
+        <state relative-caret-position="2199">
+          <caret line="962" selection-start-line="962" selection-end-line="962" />
           <folding>
             <element signature="e#0#88#0" />
             <element signature="e#1065#1176#1" />
@@ -666,7 +674,6 @@
             <element signature="e#4601#4955#1" />
             <element signature="e#5325#5732#0" />
             <element signature="e#5734#5788#0" />
-            <element signature="e#5790#6104#0" />
             <element signature="e#6106#6132#0" />
             <element signature="e#6134#6957#0" />
             <element signature="e#6959#7218#0" />
@@ -699,26 +706,15 @@
             <element signature="e#16131#17728#0" />
             <element signature="e#17730#21403#0" />
             <element signature="e#22742#24297#0" />
-            <element signature="e#24299#24317#0" />
             <element signature="e#24947#25049#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main2.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding>
-            <element signature="e#87#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="522" column="59" selection-start-line="522" selection-start-column="59" selection-end-line="522" selection-end-column="59" />
+        <state relative-caret-position="760">
+          <caret line="222" column="12" lean-forward="true" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
           <folding>
             <element signature="e#44#62#0" expanded="true" />
           </folding>

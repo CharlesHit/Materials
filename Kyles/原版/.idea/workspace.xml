@@ -12,20 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87a06e7d-a263-4666-8dbe-00ceaf843798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Kyles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../News/.idea/News.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../News/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../News/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../News/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/KYLE.dir/main2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/KYLE.dir/main2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/KYLE" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/KYLE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../main2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main2.h" beforeDir="false" afterPath="$PROJECT_DIR$/../main2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../News/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../News/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.INSTALL_force.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.generate.stamp.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bin_win/CMakeFiles/eb948e8b1aad34116fd531730f06eea1/.INSTALL_force.rule.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../include/object.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="250">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="e#0#88#0" />
                 <element signature="e#999#1038#1" />
@@ -184,12 +180,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554851365985</updated>
-      <workItem from="1554851367289" duration="5951000" />
+      <workItem from="1554851367289" duration="6538000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5951000" />
+    <option name="totallyTimeSpent" value="6538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-1557" width="1080" height="1920" extended-state="6" />
@@ -233,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+        <state relative-caret-position="250">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="e#0#88#0" />
             <element signature="e#999#1038#1" />

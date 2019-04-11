@@ -12,20 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6532697-4fdc-476c-9ada-2cccd08244e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kyles/.idea/Kyles.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kyles/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kyles/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Kyles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/News.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/cmake-build-debug/CMakeFiles/KYLE.dir/main2.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/cmake-build-debug/CMakeFiles/KYLE.dir/main2.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/cmake-build-debug/KYLE" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/cmake-build-debug/KYLE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/main2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/main2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/main2.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/main2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kyles/原版/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kyles/原版/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.INSTALL_force.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.generate.stamp.rule.icloud" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/eb948e8b1aad34116fd531730f06eea1/.INSTALL_force.rule.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../include/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../include/object.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

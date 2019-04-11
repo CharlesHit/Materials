@@ -53,7 +53,7 @@ const double ASPECT = H/W;
 
 #define M_PI 3.14159265
 
-const int nChars = W * H * 3;
+const long nChars = W * H * 3;
 
 void QuitX() {
 	exit(0);

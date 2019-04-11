@@ -961,22 +961,6 @@ int main(int argc, char** argv) {
 	return 0;
 }
 
-//void Render () {
-//	double aspect = ASPECT; /* Set near plane dimensions */double height = Near * tan(M_PI / 180.0 * THETA / 2.0);double width = height * aspect;mat *ray;int i, j, k; //such a classical grammar
-//	Color pixel;
-//
-//	for (i = 0; i < window.width; i++) {
-//		for (j = 0; j < window.height; j++) {
-//			ray = ray_direction(&Camera, &window, height, width, (double)i, (double)j);
-//			pixel = shade(&light, object, &Camera.E, ray, pixel, background, 3);
-//			SetBackColor(pixel);
-//			SetPixel(window, i, window.height - (j + 1));
-//			delete_dmatrix(ray);
-//		}
-//	}
-//}
-
-
 bool trace(const mat* orig, const mat *dir, double tNear);
 
 void OnKeyboard(unsigned char key, int x, int y) {

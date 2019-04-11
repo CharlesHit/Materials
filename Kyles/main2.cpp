@@ -475,28 +475,29 @@ Vec3f castRay(
 // saved to a file.
 // [/comment]
 
-std::vector<char> frame(640*480*3);
+Options options;
+std::vector<char> frame;
 std::vector<std::unique_ptr<Object>> objects;
 std::vector<std::unique_ptr<Light>> lights;
-Options options;
 
 void render()
-//		const Options &options,
-//		const std::vector<std::unique_ptr<Object>> &objects,
-//		const std::vector<std::unique_ptr<Light>> &lights)
 {
 	Vec3f *framebuffer = new Vec3f[options.width * options.height];
-	Vec3f *pix = framebuffer;
+	char *pix = &frame[nChars - 1];
 	float scale = tan(deg2rad(options.fov * 0.5));
 	float imageAspectRatio = options.width / (float)options.height;
 	Vec3f orig(0);
-	for (uint32_t j = 0; j < options.height; ++j) {
-		for (uint32_t i = 0; i < options.width; ++i) {
+	for (uint32_t i = 0; i < options.height; ++i) {
+		for (uint32_t j = 0; j < options.width; ++j) {
 			// generate primary ray direction
-			float x = (2 * (i + 0.5) / (float)options.width - 1) * imageAspectRatio * scale;
-			float y = (1 - 2 * (j + 0.5) / (float)options.height) * scale;
+			float x = (2 * (j + 0.5) / (float)options.width - 1) * imageAspectRatio * scale;
+			float y = (1 - 2 * (i + 0.5) / (float)options.height) * scale;
 			Vec3f dir = normalize(Vec3f(x, y, -1));
-			*(pix++) = castRay(orig, dir, objects, lights, options, 0);
+			Vec3f color = castRay(orig, dir, objects, lights, options, 0);
+			*(pix) = color.z*255;
+			*(pix - 1) = color.y*255;
+			*(pix - 2) = color.x*255;
+			pix -= 3;
 		}
 	}
 
@@ -512,18 +513,20 @@ void render()
 //	}
 //
 //	ofs.close();
-	for (uint32_t i = 0; i < H*W; ++i)
-	{
-		unsigned int index = 3 * ( i );
-		frame[H*W*3 - index] = ( int ) ( 255 * framebuffer[i].z );
-		frame[H*W*3 - index - 1] = ( int ) ( 255 * framebuffer[i].y );
-		frame[H*W*3 - index - 2] = ( int ) ( 255 * framebuffer[i].x );
-		frame[index] = ( int ) ( 255 * framebuffer[i].x );
-		frame[index + 1] = ( int ) ( 255 * framebuffer[i].y );
-		frame[index + 2] = ( int ) ( 255 * framebuffer[i].z );
-	}
-
-	delete [] framebuffer;
+//	long total = options.width * options.height;
+//	long total3 = total*3;
+//	for (long i = 0; i < total; ++i)
+//	{
+//		unsigned long index = 3 * ( i );
+//		frame[total3 - index -3] = ( char ) ( 255 * (framebuffer[i].x) );
+//		frame[total3 - index - 1 -3] = ( char ) ( 255 * (framebuffer[i].y) );
+//		frame[total3 - index - 2 -3] = ( char ) ( 255 * (framebuffer[i].z) );
+//		frame[index] = ( int ) ( 255 * framebuffer[i].x );
+//		frame[index + 1] = ( int ) ( 255 * framebuffer[i].y );
+//		frame[index + 2] = ( int ) ( 255 * framebuffer[i].z );
+//	}
+//
+//	delete [] framebuffer;
 }
 
 // [comment]
