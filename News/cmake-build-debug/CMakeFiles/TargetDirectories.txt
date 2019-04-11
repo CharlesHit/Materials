@@ -1,0 +1,3 @@
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/News/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/News/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/News/cmake-build-debug/CMakeFiles/News.dir

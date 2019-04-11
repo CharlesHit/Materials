@@ -47,7 +47,7 @@ public:
 	vec u, v, n;//n = E - G		
 	vec top_left, screen_du, screen_dv;
 	double aspect, fovy; //based on window's size.
-	Camera (vec E, vec G, vec UP, double aspect, double fovy):E(E),fovy(60), aspect(1)
+	Camera (vec E, vec G, vec UP, double aspect):E(E),fovy(60), aspect(1)
 	{	
 		//TODO: E-G or G-E?
 		n = E - G; n = n.normalized();
@@ -74,7 +74,6 @@ public:
 	}
 };
 
-unsigned char frame[windowH*windowW * 3];
 int nobjects = 0;
 
 class Colour:public vec {

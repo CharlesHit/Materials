@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Charles\iCloudDrive\Project\Mus_World_v0\Kyles\main.cpp(131): warning C4309: “参数”: 截断常量值
+C:\Users\Charles\iCloudDrive\Project\Mus_World_v0\Kyles\main.cpp(653): warning C4101: “hitObj”: 未引用的局部变量
+  KYLE.vcxproj -> C:\Users\Charles\iCloudDrive\Project\Mus_World_v0\Kyles\bin_win\Debug\KYLE.exe

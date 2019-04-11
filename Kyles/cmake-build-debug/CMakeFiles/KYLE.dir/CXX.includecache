@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/main2.cpp
+main2.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/main2.h
+matrix_ori.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/matrix_ori.h
+cstdio
+-
+cstdlib
+-
+memory
+-
+vector
+-
+utility
+-
+cstdint
+-
+iostream
+-
+fstream
+-
+cmath
+-
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/main2.h
+GLUT/glut.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/GLUT/glut.h
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+limits
+-
+matrix_ori.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/matrix_ori.h
+vector
+-
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Kyles/matrix_ori.h
+cassert
+-
+cmath
+-
+math.h
+-
+ostream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+
