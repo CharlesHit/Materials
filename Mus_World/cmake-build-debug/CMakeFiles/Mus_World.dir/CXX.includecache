@@ -1,0 +1,72 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/main.cpp
+memory
+-
+main.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/main.h
+matrix.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/matrix.h
+object.cpp
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/object.cpp
+windows.cpp
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/windows.cpp
+vector
+-
+iostream
+-
+cmath
+-
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/main.h
+GLUT/glut.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/GLUT/glut.h
+math.h
+-
+limits
+-
+vector
+-
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/matrix.h
+cassert
+-
+cmath
+-
+math.h
+-
+ostream
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/object.cpp
+object.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/object.h
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/object.h
+matrix.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/matrix.h
+windows.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/windows.h
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/windows.cpp
+windows.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/windows.h
+
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/windows.h
+matrix.h
+/Users/Charles/Library/Mobile Documents/com~apple~CloudDocs/Project/Mus_World_v0/Mus_World/matrix.h
+
