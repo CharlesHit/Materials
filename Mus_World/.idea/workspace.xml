@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Mus_World" targetName="KYLE" />
+      <config projectName="Mus_World" targetName="Mus_World" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,214 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec5044ed-d7f8-4a9c-93b2-12274350aeb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原版/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/matrix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/object.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/object.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/windows.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/windows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Kyles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/Kyles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Super_matrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/Preview/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/Preview/Browse.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/Preview/Solution.VC.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/.vs/KYLE/v16/Preview/ipch/AutoPCH/5ec900e5016ac9c5/MAIN.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/.vs/KYLE/v16/Preview/ipch/AutoPCH/5ec900e5016ac9c5/MAIN.ipch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/ALL_BUILD.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/ALL_BUILD.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/ALL_BUILD.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/ALL_BUILD.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/CompilerIdC.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/CompilerIdC.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/CompilerIdC.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/CompilerIdC.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CMakeCCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CMakeCCompilerId.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CompilerIdCXX.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CompilerIdCXX.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CompilerIdCXX.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/CompilerIdCXX.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CompilerIdCXX.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/CompilerIdCXX/Debug/CompilerIdCXX.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/3.14.0/VCTargetsPath.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/3.14.0/VCTargetsPath.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/generate.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/generate.stamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/generate.stamp.depend" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/generate.stamp.depend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/CMakeFiles/generate.stamp.list" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/CMakeFiles/generate.stamp.list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/KYLE.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/KYLE.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/KYLE.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/KYLE.ilk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/KYLE.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/KYLE.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/freeglut.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/freeglut.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/glew32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/glew32.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/glewinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/glewinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/glfw3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/glfw3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/Debug/visualinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/Debug/visualinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/INSTALL.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/INSTALL.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/INSTALL.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/INSTALL.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/INSTALL.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/INSTALL.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/CL.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/KYLE.lastbuildstate" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/KYLE.lastbuildstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/custombuild.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/link.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/link.command.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/KYLE.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/KYLE.tlog/link.write.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.dir/Debug/vc142.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.dir/Debug/vc142.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/KYLE.vcxproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/KYLE.vcxproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/ZERO_CHECK.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/ZERO_CHECK.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/ZERO_CHECK.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/ZERO_CHECK.vcxproj.filters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/.signature.p7s" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/.signature.p7s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/default-propertiesui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/default-propertiesui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/docs/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/docs/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut_ext.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut_ext.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut_std.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/freeglut_std.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glew.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glew.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glut.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glut.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glxew.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/glxew.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/wglew.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GL/wglew.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GLFW/glfw3.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GLFW/glfw3.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GLFW/glfw3native.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/include/GLFW/glfw3native.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/freeglut.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/freeglut.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/glew32.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/glew32.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/glfw3dll.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/Win32/glfw3dll.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/freeglut.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/freeglut.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/glew32.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/glew32.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/glfw3dll.lib" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/lib/x64/glfw3dll.lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/build/native/nupengl.core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/build/native/nupengl.core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.0.1.0.1/nupengl.core.0.1.0.1.nupkg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.0.1.0.1/nupengl.core.0.1.0.1.nupkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/.signature.p7s" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/.signature.p7s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/freeglut.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/freeglut.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glew32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glew32.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glewinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glewinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glfw3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/glfw3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/visualinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/Win32/visualinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/freeglut.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/freeglut.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glew32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glew32.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glewinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glewinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glfw3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/glfw3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/visualinfo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/bin/x64/visualinfo.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/default-propertiesui.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/default-propertiesui.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/nupengl.core.redist.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/build/native/nupengl.core.redist.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin_win/packages/nupengl.core.redist.0.1.0.1/nupengl.core.redist.0.1.0.1.nupkg" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/bin_win/packages/nupengl.core.redist.0.1.0.1/nupengl.core.redist.0.1.0.1.nupkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/main2.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/KYLE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/KYLE.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/KYLE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/KYLE.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/KYLE.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.ppm" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/out.ppm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main2.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main2.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/matrix_ori.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/YUANBAN.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/YUANBAN" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/YUANBAN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/YUANBAN.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/YUANBAN.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/原版/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/matrix.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/Mus_World.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Mus_World" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Mus_World" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/原版/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../News/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../News/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.INSTALL_force.rule.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/5225fabf2b98b4e54f4499551557a78c/.generate.stamp.rule.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin_win/CMakeFiles/eb948e8b1aad34116fd531730f06eea1/.INSTALL_force.rule.icloud" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/../Mus_World/cmake-build-debug/" />
@@ -232,50 +32,37 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/../Mus_World/object.h">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="253">
+                    <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Mus_World/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+            <state relative-caret-position="695">
+              <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
               <folding>
                 <element signature="e#0#2#0" />
                 <element signature="e#44#61#0" expanded="true" />
-                <element signature="e#11564#11753#0" />
                 <element signature="e#11755#12140#0" />
-                <element signature="e#12142#13518#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Mus_World/windows.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Mus_World/windows.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Mus_World/object.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1087">
-              <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-              <folding>
-                <element signature="e#94#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -284,21 +71,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Mus_World/object.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4996">
-              <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Mus_World/main.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="778">
+              <caret line="223" column="76" lean-forward="true" selection-start-line="223" selection-start-column="76" selection-end-line="223" selection-end-column="76" />
               <folding>
-                <element signature="e#87#109#0" expanded="true" />
-                <element signature="e#130#156#0" />
-                <element signature="e#107#209#0" />
+                <element signature="e#0#2#0" />
+                <element signature="e#986#1616#0" />
+                <element signature="e#277#678#0" />
+                <element signature="e#680#1334#0" />
+                <element signature="e#1336#1838#0" />
               </folding>
             </state>
           </provider>
@@ -307,108 +87,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Mus_World/matrix.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1886">
-              <caret line="675" selection-start-line="675" selection-end-line="675" />
+            <state relative-caret-position="598">
+              <caret line="485" column="14" selection-start-line="485" selection-start-column="14" selection-end-line="485" selection-end-column="14" />
               <folding>
-                <element signature="e#14#94#0" />
-                <element signature="e#331#377#1" />
-                <element signature="e#512#5156#1" />
-                <element signature="e#572#653#0" />
-                <element signature="e#655#812#0" />
-                <element signature="e#814#991#0" />
-                <element signature="e#993#1059#0" />
-                <element signature="e#1062#1107#0" />
-                <element signature="e#1110#1231#0" />
-                <element signature="e#1233#1454#0" />
-                <element signature="e#1456#1551#0" />
-                <element signature="e#1553#1610#0" />
-                <element signature="e#1612#1730#0" />
-                <element signature="e#1732#1807#0" />
-                <element signature="e#1810#1962#0" />
-                <element signature="e#1965#2123#0" />
-                <element signature="e#2126#2211#0" />
-                <element signature="e#2214#2314#0" />
-                <element signature="e#2318#2659#0" />
-                <element signature="e#2662#2826#0" />
-                <element signature="e#2917#3077#0" />
-                <element signature="e#3080#3237#0" />
-                <element signature="e#3239#3370#0" />
-                <element signature="e#3372#3503#0" />
-                <element signature="e#3505#3662#0" />
-                <element signature="e#3663#3924#0" />
-                <element signature="e#3926#4009#0" />
-                <element signature="e#4011#4073#0" />
-                <element signature="e#4076#4158#0" />
-                <element signature="e#4160#4240#0" />
-                <element signature="e#4242#4378#0" />
-                <element signature="e#4380#4537#0" />
-                <element signature="e#4539#4653#0" />
-                <element signature="e#4654#4744#0" />
-                <element signature="e#4747#4840#0" />
-                <element signature="e#4842#4989#0" />
-                <element signature="e#4990#5154#0" />
-                <element signature="e#5159#5450#0" />
-                <element signature="e#5452#5683#0" />
-                <element signature="e#5685#7931#1" />
-                <element signature="e#5758#5826#0" />
-                <element signature="e#5828#5946#0" />
-                <element signature="e#5948#6088#0" />
-                <element signature="e#6090#6160#0" />
-                <element signature="e#6163#6236#0" />
-                <element signature="e#6239#6315#0" />
-                <element signature="e#6318#6365#0" />
-                <element signature="e#6368#6496#0" />
-                <element signature="e#6498#6607#0" />
-                <element signature="e#6609#6708#0" />
-                <element signature="e#6710#6836#0" />
-                <element signature="e#6837#6967#0" />
-                <element signature="e#6969#7050#0" />
-                <element signature="e#7052#7169#0" />
-                <element signature="e#7171#7253#0" />
-                <element signature="e#7255#7360#0" />
-                <element signature="e#7362#7489#0" />
-                <element signature="e#7491#7596#0" />
-                <element signature="e#7597#7681#0" />
-                <element signature="e#7683#7784#0" />
-                <element signature="e#7785#7929#0" />
-                <element signature="e#7934#8821#1" />
-                <element signature="e#8576#8679#0" />
-                <element signature="e#8681#8802#0" />
-                <element signature="e#8824#9120#1" />
-                <element signature="e#9123#9333#0" />
-                <element signature="e#9335#9437#0" />
-                <element signature="e#9439#9589#0" />
-                <element signature="e#9591#9705#0" />
-                <element signature="e#9707#9776#0" />
-                <element signature="e#9778#9896#0" />
-                <element signature="e#9898#9985#0" />
-                <element signature="e#9987#10351#0" />
-                <element signature="e#10353#10998#0" />
-                <element signature="e#9267#9395#0" />
-                <element signature="e#9398#9566#0" />
-                <element signature="e#9569#9976#0" />
-                <element signature="e#9979#10149#0" />
-                <element signature="e#10152#10233#0" />
-                <element signature="e#10236#10337#0" />
-                <element signature="e#10340#10578#0" />
-                <element signature="e#10581#10736#0" />
-                <element signature="e#10739#10952#0" />
-                <element signature="e#10955#11210#0" />
-                <element signature="e#11213#11621#0" />
-                <element signature="e#11624#11975#0" />
-                <element signature="e#11978#12329#0" />
-                <element signature="e#12332#12697#0" />
-                <element signature="e#12700#12781#0" />
-                <element signature="e#12784#13023#0" />
-                <element signature="e#13026#13555#0" />
-                <element signature="e#13558#13933#0" />
-                <element signature="e#13936#14405#0" />
-                <element signature="e#14408#14819#0" />
-                <element signature="e#14822#15092#0" />
-                <element signature="e#15095#15202#0" />
-                <element signature="e#15205#15589#0" />
-                <element signature="e#15592#16307#0" />
-                <element signature="e#16310#16910#0" />
                 <element signature="e#18643#23117#1" />
                 <element signature="e#18703#18780#0" />
                 <element signature="e#18783#18928#0" />
@@ -426,32 +107,16 @@
                 <element signature="e#21262#21695#0" />
                 <element signature="e#21698#22022#0" />
                 <element signature="e#22025#22323#0" />
-                <element signature="e#23190#23501#0" />
-                <element signature="e#23502#23633#0" />
-                <element signature="e#23634#23948#0" />
-                <element signature="e#23949#24226#0" />
-                <element signature="e#24227#24288#0" />
-                <element signature="e#24289#24349#0" />
-                <element signature="e#24350#24670#0" />
-                <element signature="e#24671#24733#0" />
-                <element signature="e#24734#24949#0" />
-                <element signature="e#24950#25036#0" />
-                <element signature="e#25037#25103#0" />
-                <element signature="e#25104#25351#0" />
-                <element signature="e#25352#25417#0" />
-                <element signature="e#25418#25491#0" />
-                <element signature="e#25492#25718#0" />
-                <element signature="e#25719#25807#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Mus_World/CMakeLists.txt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Mus_World/windows.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="736">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -460,8 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foregroundColor</find>
-      <find>Color</find>
       <find>background</find>
       <find>sphere_intersection</find>
       <find>solve</find>
@@ -490,6 +153,8 @@
       <find>class</find>
       <find>float</find>
       <find>cast</find>
+      <find>REFLECTION_AND_REFRACTION</find>
+      <find>f</find>
     </findStrings>
     <replaceStrings>
       <replace>vec2</replace>
@@ -523,9 +188,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/object.cpp" />
         <option value="$PROJECT_DIR$/../Mus_World/main.h" />
-        <option value="$PROJECT_DIR$/../Mus_World/object.h" />
         <option value="$PROJECT_DIR$/../Mus_World/windows.h" />
         <option value="$PROJECT_DIR$/../Mus_World/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/../Mus_World/matrix.h" />
+        <option value="$PROJECT_DIR$/../Mus_World/object.h" />
+        <option value="$PROJECT_DIR$/../Mus_World/object.cpp" />
+        <option value="$PROJECT_DIR$/../Mus_World/main.cpp" />
       </list>
     </option>
   </component>
@@ -569,6 +237,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -606,23 +275,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554798241374</updated>
       <workItem from="1554798242640" duration="12233000" />
-      <workItem from="1554851049699" duration="33465000" />
+      <workItem from="1554851049699" duration="42599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45698000" />
+    <option name="totallyTimeSpent" value="54832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-1557" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1734104" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1734104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3010811" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3010811" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26054054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,7 +301,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="CMake" order="12" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -795,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#2#0" />
-            <element signature="e#44#61#0" expanded="true" />
-            <element signature="e#11564#11753#0" />
-            <element signature="e#11755#12140#0" />
-            <element signature="e#12142#13518#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Mus_World/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -821,110 +476,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mus_World/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../Mus_World/matrix.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1886">
-          <caret line="675" selection-start-line="675" selection-end-line="675" />
+        <state relative-caret-position="598">
+          <caret line="485" column="14" selection-start-line="485" selection-start-column="14" selection-end-line="485" selection-end-column="14" />
           <folding>
-            <element signature="e#14#94#0" />
-            <element signature="e#331#377#1" />
-            <element signature="e#512#5156#1" />
-            <element signature="e#572#653#0" />
-            <element signature="e#655#812#0" />
-            <element signature="e#814#991#0" />
-            <element signature="e#993#1059#0" />
-            <element signature="e#1062#1107#0" />
-            <element signature="e#1110#1231#0" />
-            <element signature="e#1233#1454#0" />
-            <element signature="e#1456#1551#0" />
-            <element signature="e#1553#1610#0" />
-            <element signature="e#1612#1730#0" />
-            <element signature="e#1732#1807#0" />
-            <element signature="e#1810#1962#0" />
-            <element signature="e#1965#2123#0" />
-            <element signature="e#2126#2211#0" />
-            <element signature="e#2214#2314#0" />
-            <element signature="e#2318#2659#0" />
-            <element signature="e#2662#2826#0" />
-            <element signature="e#2917#3077#0" />
-            <element signature="e#3080#3237#0" />
-            <element signature="e#3239#3370#0" />
-            <element signature="e#3372#3503#0" />
-            <element signature="e#3505#3662#0" />
-            <element signature="e#3663#3924#0" />
-            <element signature="e#3926#4009#0" />
-            <element signature="e#4011#4073#0" />
-            <element signature="e#4076#4158#0" />
-            <element signature="e#4160#4240#0" />
-            <element signature="e#4242#4378#0" />
-            <element signature="e#4380#4537#0" />
-            <element signature="e#4539#4653#0" />
-            <element signature="e#4654#4744#0" />
-            <element signature="e#4747#4840#0" />
-            <element signature="e#4842#4989#0" />
-            <element signature="e#4990#5154#0" />
-            <element signature="e#5159#5450#0" />
-            <element signature="e#5452#5683#0" />
-            <element signature="e#5685#7931#1" />
-            <element signature="e#5758#5826#0" />
-            <element signature="e#5828#5946#0" />
-            <element signature="e#5948#6088#0" />
-            <element signature="e#6090#6160#0" />
-            <element signature="e#6163#6236#0" />
-            <element signature="e#6239#6315#0" />
-            <element signature="e#6318#6365#0" />
-            <element signature="e#6368#6496#0" />
-            <element signature="e#6498#6607#0" />
-            <element signature="e#6609#6708#0" />
-            <element signature="e#6710#6836#0" />
-            <element signature="e#6837#6967#0" />
-            <element signature="e#6969#7050#0" />
-            <element signature="e#7052#7169#0" />
-            <element signature="e#7171#7253#0" />
-            <element signature="e#7255#7360#0" />
-            <element signature="e#7362#7489#0" />
-            <element signature="e#7491#7596#0" />
-            <element signature="e#7597#7681#0" />
-            <element signature="e#7683#7784#0" />
-            <element signature="e#7785#7929#0" />
-            <element signature="e#7934#8821#1" />
-            <element signature="e#8576#8679#0" />
-            <element signature="e#8681#8802#0" />
-            <element signature="e#8824#9120#1" />
-            <element signature="e#9123#9333#0" />
-            <element signature="e#9335#9437#0" />
-            <element signature="e#9439#9589#0" />
-            <element signature="e#9591#9705#0" />
-            <element signature="e#9707#9776#0" />
-            <element signature="e#9778#9896#0" />
-            <element signature="e#9898#9985#0" />
-            <element signature="e#9987#10351#0" />
-            <element signature="e#10353#10998#0" />
-            <element signature="e#9267#9395#0" />
-            <element signature="e#9398#9566#0" />
-            <element signature="e#9569#9976#0" />
-            <element signature="e#9979#10149#0" />
-            <element signature="e#10152#10233#0" />
-            <element signature="e#10236#10337#0" />
-            <element signature="e#10340#10578#0" />
-            <element signature="e#10581#10736#0" />
-            <element signature="e#10739#10952#0" />
-            <element signature="e#10955#11210#0" />
-            <element signature="e#11213#11621#0" />
-            <element signature="e#11624#11975#0" />
-            <element signature="e#11978#12329#0" />
-            <element signature="e#12332#12697#0" />
-            <element signature="e#12700#12781#0" />
-            <element signature="e#12784#13023#0" />
-            <element signature="e#13026#13555#0" />
-            <element signature="e#13558#13933#0" />
-            <element signature="e#13936#14405#0" />
-            <element signature="e#14408#14819#0" />
-            <element signature="e#14822#15092#0" />
-            <element signature="e#15095#15202#0" />
-            <element signature="e#15205#15589#0" />
-            <element signature="e#15592#16307#0" />
-            <element signature="e#16310#16910#0" />
             <element signature="e#18643#23117#1" />
             <element signature="e#18703#18780#0" />
             <element signature="e#18783#18928#0" />
@@ -942,61 +519,40 @@
             <element signature="e#21262#21695#0" />
             <element signature="e#21698#22022#0" />
             <element signature="e#22025#22323#0" />
-            <element signature="e#23190#23501#0" />
-            <element signature="e#23502#23633#0" />
-            <element signature="e#23634#23948#0" />
-            <element signature="e#23949#24226#0" />
-            <element signature="e#24227#24288#0" />
-            <element signature="e#24289#24349#0" />
-            <element signature="e#24350#24670#0" />
-            <element signature="e#24671#24733#0" />
-            <element signature="e#24734#24949#0" />
-            <element signature="e#24950#25036#0" />
-            <element signature="e#25037#25103#0" />
-            <element signature="e#25104#25351#0" />
-            <element signature="e#25352#25417#0" />
-            <element signature="e#25418#25491#0" />
-            <element signature="e#25492#25718#0" />
-            <element signature="e#25719#25807#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/object.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4996">
-          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Mus_World/object.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1087">
-          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="253">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Mus_World/object.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="223" column="76" lean-forward="true" selection-start-line="223" selection-start-column="76" selection-end-line="223" selection-end-column="76" />
           <folding>
-            <element signature="e#94#113#0" expanded="true" />
+            <element signature="e#0#2#0" />
+            <element signature="e#986#1616#0" />
+            <element signature="e#277#678#0" />
+            <element signature="e#680#1334#0" />
+            <element signature="e#1336#1838#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.cpp">
+    <entry file="file://$PROJECT_DIR$/../Mus_World/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="695">
+          <caret line="79" column="61" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#2#0" />
+            <element signature="e#44#61#0" expanded="true" />
+            <element signature="e#11755#12140#0" />
+          </folding>
         </state>
       </provider>
     </entry>

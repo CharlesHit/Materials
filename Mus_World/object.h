@@ -8,14 +8,16 @@
 #include "matrix.h"
 #include "windows.h"
 
-enum MaterialType { DIFFUSE_AND_GLOSSY, REFLECTION_AND_REFRACTION, REFLECTION };
+enum MaterialType { LAMBERT, GRASS, REFLECTION };
 
 class Object
 {
 public:
 	Object();
 	virtual ~Object() = default;
+	//get the intersection
 	virtual bool intersect(const Vec3 &, const Vec3 &, double &, uint32_t &, Vec2 &) const = 0;
+	//get the normal vector
 	virtual void getSurfaceProperties(const Vec3 &, const Vec3 &, const uint32_t &, const Vec2 &, Vec3 &, Vec2 &) const = 0;
 	virtual Vec3 evalDiffuseColor(const Vec2 &) const;
 	MaterialType materialType;
@@ -34,7 +36,15 @@ public:
 	Sphere(const Vec3 &c, const double &r);
 	bool intersect(const Vec3 &orig, const Vec3 &dir, double &tnear, uint32_t &index, Vec2 &uv) const override;
 	void getSurfaceProperties(const Vec3 &P, const Vec3 &I, const uint32_t &index, const Vec2 &uv, Vec3 &N, Vec2 &st) const override;
+};
 
+class Cone : public Object{
+public:
+	Vec3 center;
+	double radius, height;
+	Cone(const Vec3 &c, const double &r);
+	bool intersect(const Vec3 &orig, const Vec3 &dir, double &tnear, uint32_t &index, Vec2 &uv) const override;
+	void getSurfaceProperties(const Vec3 &P, const Vec3 &I, const uint32_t &index, const Vec2 &uv, Vec3 &N, Vec2 &st) const override;
 };
 
 bool rayTriangleIntersect(
@@ -42,10 +52,10 @@ bool rayTriangleIntersect(
 		const Vec3 &orig, const Vec3 &dir,
 		double &tnear, double &u, double &v);
 
-class MeshTriangle : public Object
+class Plane : public Object
 {
 public:
-	MeshTriangle(const Vec3 *verts, const uint32_t *vertsIndex, const uint32_t &numTris, const Vec2 *st);
+	Plane(Vec3 color_1, Vec3 color_2, double depth_mesh, double near_mesh, double far_mesh, double left_mesh, double right_mesh);
 
 	bool intersect(const Vec3 &orig, const Vec3 &dir, double &tnear, uint32_t &index, Vec2 &uv) const override;
 	void getSurfaceProperties(const Vec3 &P, const Vec3 &I, const uint32_t &index, const Vec2 &uv, Vec3 &N, Vec2 &st) const override;
@@ -55,6 +65,8 @@ public:
 	uint32_t numTriangles;
 	std::unique_ptr<uint32_t[]> vertexIndex;
 	std::unique_ptr<Vec2[]> stCoordinates;
+	Vec3 color0;
+	Vec3 color1;
 };
 
 bool trace(

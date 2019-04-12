@@ -40,8 +40,8 @@
 
 #define THETA            45.0
 
-const int H = 800;
-const int W = 800;
+const int H = 768;
+const int W = 1024;
 const double ASPECT = H/W;
 
 const long nChars = W * H * 3;
