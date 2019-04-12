@@ -1,1 +1,2 @@
-# Mu-s_World
+# Mus_World
+My ray tracer, my world.
