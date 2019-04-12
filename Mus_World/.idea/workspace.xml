@@ -12,18 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec5044ed-d7f8-4a9c-93b2-12274350aeb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/原版/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/Mus_World.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Mus_World" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/matrix.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/matrix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mus_World/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kyles/原版/.idea/原版.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../News/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../News/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/../Mus_World/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +26,9 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/../Mus_World/object.h">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="207">
-                    <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -120,22 +94,20 @@
         <option value="$PROJECT_DIR$/main.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/object.cpp" />
-        <option value="$PROJECT_DIR$/../Mus_World/windows.h" />
-        <option value="$PROJECT_DIR$/../Mus_World/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/../Mus_World/main.h" />
-        <option value="$PROJECT_DIR$/../Mus_World/matrix.h" />
-        <option value="$PROJECT_DIR$/../Mus_World/object.h" />
-        <option value="$PROJECT_DIR$/../Mus_World/object.cpp" />
-        <option value="$PROJECT_DIR$/../Mus_World/main.cpp" />
+        <option value="$PROJECT_DIR$/windows.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.h" />
+        <option value="$PROJECT_DIR$/matrix.h" />
+        <option value="$PROJECT_DIR$/object.h" />
+        <option value="$PROJECT_DIR$/object.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-1557" />
-    <option name="width" value="1080" />
-    <option name="height" value="1920" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,27 +181,28 @@
       <updated>1554798241374</updated>
       <workItem from="1554798242640" duration="12233000" />
       <workItem from="1554851049699" duration="50057000" />
+      <workItem from="1555037905284" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62290000" />
+    <option name="totallyTimeSpent" value="63155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="-1557" width="1080" height="1920" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1734104" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3010811" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26054054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.36864865" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.36849314" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -280,17 +253,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Super_matrix.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="568" column="1" selection-start-line="442" selection-end-line="568" selection-end-column="1" />
-          <folding>
-            <element signature="e#96#114#0" expanded="true" />
-            <element signature="e#314#664#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Super_matrix.h" />
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/memory">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -305,119 +268,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2199">
-          <caret line="962" selection-start-line="962" selection-end-line="962" />
-          <folding>
-            <element signature="e#0#88#0" />
-            <element signature="e#1065#1176#1" />
-            <element signature="e#1179#1237#1" />
-            <element signature="e#1240#3518#1" />
-            <element signature="e#1338#1471#0" />
-            <element signature="e#1474#1640#0" />
-            <element signature="e#1643#1812#0" />
-            <element signature="e#1815#1888#0" />
-            <element signature="e#1890#2075#0" />
-            <element signature="e#2077#2212#0" />
-            <element signature="e#2214#2357#0" />
-            <element signature="e#2358#2501#0" />
-            <element signature="e#2503#2584#0" />
-            <element signature="e#2586#2658#0" />
-            <element signature="e#2659#2743#0" />
-            <element signature="e#2745#2887#0" />
-            <element signature="e#2889#3054#0" />
-            <element signature="e#3056#3176#0" />
-            <element signature="e#3177#3275#0" />
-            <element signature="e#3277#3516#0" />
-            <element signature="e#3521#3880#0" />
-            <element signature="e#3882#4598#1" />
-            <element signature="e#4601#4955#1" />
-            <element signature="e#5325#5732#0" />
-            <element signature="e#5734#5788#0" />
-            <element signature="e#6106#6132#0" />
-            <element signature="e#6134#6957#0" />
-            <element signature="e#6959#7218#0" />
-            <element signature="e#7220#7469#0" />
-            <element signature="e#7471#7840#0" />
-            <element signature="e#7842#8633#0" />
-            <element signature="e#8635#9040#0" />
-            <element signature="e#9042#9298#0" />
-            <element signature="e#9300#9720#0" />
-            <element signature="e#9722#10206#0" />
-            <element signature="e#10208#10441#0" />
-            <element signature="e#10443#10748#0" />
-            <element signature="e#10750#11000#0" />
-            <element signature="e#11002#11271#0" />
-            <element signature="e#11273#11715#0" />
-            <element signature="e#11717#11853#0" />
-            <element signature="e#11855#11973#0" />
-            <element signature="e#11975#12136#0" />
-            <element signature="e#12138#12170#0" />
-            <element signature="e#12558#13268#1" />
-            <element signature="e#12713#13117#0" />
-            <element signature="e#13119#13266#0" />
-            <element signature="e#13271#13842#0" />
-            <element signature="e#13844#16128#1" />
-            <element signature="e#13887#14558#0" />
-            <element signature="e#14561#15107#0" />
-            <element signature="e#15110#15743#0" />
-            <element signature="e#15746#15985#0" />
-            <element signature="e#16131#17221#0" />
-            <element signature="e#16131#17728#0" />
-            <element signature="e#17730#21403#0" />
-            <element signature="e#22742#24297#0" />
-            <element signature="e#24947#25049#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix_ori.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
-          <folding>
-            <element signature="e#14#94#0" />
-            <element signature="e#5971#6326#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ray.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ray.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#83#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.cpp">
+    <entry file="file://$PROJECT_DIR$/matrix_ori.h" />
+    <entry file="file://$PROJECT_DIR$/ray.cpp" />
+    <entry file="file://$PROJECT_DIR$/ray.h" />
+    <entry file="file://$PROJECT_DIR$/windows.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/main.h">
+    <entry file="file://$PROJECT_DIR$/main.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/matrix.h">
+    <entry file="file://$PROJECT_DIR$/matrix.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="488" column="12" selection-start-line="488" selection-start-column="5" selection-end-line="488" selection-end-column="12" />
@@ -442,14 +317,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/object.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/main.cpp">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="906">
           <caret line="103" column="24" selection-start-line="103" selection-start-column="24" selection-end-line="103" selection-end-column="24" />
@@ -460,7 +328,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/object.cpp">
+    <entry file="file://$PROJECT_DIR$/object.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="361" column="12" lean-forward="true" selection-start-line="361" selection-start-column="12" selection-end-line="361" selection-end-column="12" />
@@ -484,10 +352,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Mus_World/windows.h">
+    <entry file="file://$PROJECT_DIR$/windows.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
