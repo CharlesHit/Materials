@@ -1,2 +1,22 @@
-# Mus_World
-My ray tracer, my world.
+README.md
+
+# How to Compile
+
+Sorry that I haven't made a good CMAKE file, so you have to add freeGLUT or GLUT/OpenGL mannually. Then it shall be work.
+
+# Materials I did in this program
+
+Lambert Material: Pure diffuse reflection. I use a very very low Ks and high Kd to do it. It's almost the same as which used Gouraud shading techniques (As I did in my previous one). But of course, it's more natural.
+
+Metal: Under Phong's model, it's hard to get the effect as Monte Carlo Algorithm can do. So I simply lower the Kd and Ks together, and use it approach matel's dark surface.
+
+Steel: Same as Metal. Set the color to a light color and using high coeffient of Kd and low for Ks then you will get it.
+
+Grass: The grass's color is decided by reflection and refraction. That is essentially different from Lambert material. In Grass there is no specular color, and the coeffients of them is 1.
+
+# Reference
+
+My most work followes _An improved illumination model for shaded display_, by T.Whitted.
+
+Based on his work, I mainly tried this four kinds of different materials:
+
