@@ -1,9 +1,9 @@
 #ifdef _WIN32
 #	include "GL/freeglut.h"
-#elif def __APPLE__
-#	include "GLUT/glut.h"
+//#elif def __APPLE__
+//#	include "GLUT/glut.h"
 #else 
-#	error PLZ check and decide header file manually
+#	include "GLUT/glut.h"
 #endif
 
 /*
@@ -50,6 +50,8 @@ void SetCurrentColorX(unsigned int r, unsigned int g, unsigned int b) {
 	foregroundColor = Colour(r,g,b);
 }
 
+unsigned char frame[windowH*windowW * 3];
+
 void SetPixelX(window_t& window, int i, int j) {
 	if (i >= window.width || j >= window.height)
 		return;
@@ -75,54 +77,57 @@ void QuitX() {
 }
 
 Camera C;
-window_t Window;
+window_t Window = window_t(windowW, windowH);
 light_t light;
 Colour background;
 
 void testMatrix ( );
 void testColour( );
 int main(int argc, char** argv) {
-	/* set the background color */
+	/* Set the background color */
 
-	//background = Colour(0.0, 0.0, 0.0);
+	background = Colour(0.0, 0.0, 0.0);
 
-	///* set up light position, intensity, and color */
+	/* Set up light position, intensity, and color */
 
-	//dmatrix_t m;
-	//vec light_position = vec (Lx,Ly,Lz,1);
+	dmatrix_t M, light_position;
 
-	//Colour light_intensity(1.0, 1.0, 1.0);
-	//Colour light_color(1.0, 1.0, 1.0);
-	//light = *build_light(&light, light_position, light_color, light_intensity);
+	dmat_alloc(&light_position, 4, 1);
 
-	///* build display window and synthetic camera */
+	light_position.m[X][1] = Lx;
+	light_position.m[Y][1] = Ly;
+	light_position.m[Z][1] = Lz;
+	light_position.m[4][1] = 1.0;
 
-	//Window = window_t();
-	//C = Camera();
+	Colour light_intensity(1.0, 1.0, 1.0);
+	Colour light_color(1.0, 1.0, 1.0);
+	light = *build_light(&light, &light_position, light_color, light_intensity);
 
-	///* build a sphere */
+	/* Build display window and synthetic camera */
 
-	//m = mat();
-	//m.translated (0.0, 0.0, 0.0);
+	Window = *build_window(&Window, H, ASPECT);
+	Camera = *build_camera(&Camera, &Window);
 
-	//Colour specular_color = Colour(1.0, 1.0, 1.0);
-	//Colour diffuse_color = Colour(0.0, 0.0, 1.0);
-	//Colour ambient_color = Colour(0.0, 0.0, 1.0);
+	/* Build a sphere */
 
-	//double specular_coeff = 0.4;
-	//double diffuse_coeff = 0.4;
-	//double ambient_coeff = 0.2;
+	M = *translate(0.0, 0.0, 0.0);
 
-	//double f = 10.0;
-	//double reflectivity = 0.0;
+	Colour specular_color = Colour(1.0, 1.0, 1.0);
+	Colour diffuse_color = Colour(0.0, 0.0, 1.0);
+	Colour ambient_color = Colour(0.0, 0.0, 1.0);
 
-	//object[nobjects] = object_t(SPHERE, m, ambient_color, diffuse_color, specular_color, ambient_coeff, diffuse_coeff, specular_coeff, f, reflectivity);
+	double specular_coeff = 0.4;
+	double diffuse_coeff = 0.4;
+	double ambient_coeff = 0.2;
 
-	//initGLUT (argc, argv, Window);
-	//glutMainLoop ();
-	//return 0;
-	testColour ( );
-	system ( "pause" );
+	double f = 10.0;
+	double reflectivity = 0.0;
+
+	object[nobjects] = *build_object(SPHERE, &M, ambient_color, diffuse_color, specular_color, ambient_coeff, diffuse_coeff, specular_coeff, f, reflectivity);
+
+	initGLUT(argc, argv, Window);
+	glutMainLoop();
+	return 0;
 }
 
 void testMatrix ( )
@@ -144,7 +149,7 @@ void testObject( )
 void testColour( )
 {
 	Colour c = Colour(3,2,1);
-	Colour d = Colour(c);
+	Colour d = c;
 	c += d;
 	c.print();
 }
@@ -154,22 +159,17 @@ void Draw() {
 	double height = Near * tan(M_PI / 180.0 * THETA / 2.0);
 	double width = height * aspect;
 
-	dmatrix_t direction;
+	dmatrix_t *direction;
 	int i, j;
-	Colour pixel;
+	color_t pixel;
 
 	for (i = 0; i < Window.width; i++) {
 		for (j = 0; j < Window.height; j++) {
-			direction = *ray_direction(C, &Window, height, width, (double)i, (double)j);
-			pixel = shade(&light, object, C.E, &direction, pixel, background, 3);
-
-			//pixel.r = 1;
-			//pixel.g = 1;
-			//pixel.b = 0;
-
+			direction = ray_direction(&Camera, &Window, height, width, (double)i, (double)j);
+			pixel = shade(&light, object, &Camera.E, direction, pixel, background, 3);
 			SetCurrentColorX((int)pixel.r, (int)pixel.g, (int)pixel.b);
 			SetPixelX(Window, i, Window.height - (j + 1));
-			delete_dmatrix(&direction);
+			delete_dmatrix(direction);
 		}
 	}
 }

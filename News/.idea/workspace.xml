@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="News" targetName="News" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6532697-4fdc-476c-9ada-2cccd08244e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/CMakeFiles/Mus_World.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Mus_World" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/cmake-build-debug/Mus_World" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/object.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/object.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/object.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mus_World/原版/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mus_World/原版/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/whitted.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-187">
+              <caret line="430" column="42" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#10#0" />
+                <element signature="e#1350#2231#1" />
+                <element signature="e#1988#2090#0" />
+                <element signature="e#2092#2213#0" />
+                <element signature="e#2234#2525#1" />
+                <element signature="e#2528#2736#0" />
+                <element signature="e#2738#2839#0" />
+                <element signature="e#2841#2991#0" />
+                <element signature="e#2993#3103#0" />
+                <element signature="e#3105#3172#0" />
+                <element signature="e#3174#3291#0" />
+                <element signature="e#3293#3439#1" />
+                <element signature="e#3573#3652#1" />
+                <element signature="e#3655#4249#1" />
+                <element signature="e#4252#4641#0" />
+                <element signature="e#4643#5381#1" />
+                <element signature="e#4764#5180#0" />
+                <element signature="e#5183#5339#0" />
+                <element signature="e#5384#6024#0" />
+                <element signature="e#6026#8341#1" />
+                <element signature="e#6072#6755#0" />
+                <element signature="e#6758#7306#0" />
+                <element signature="e#7309#7960#0" />
+                <element signature="e#7963#8195#0" />
+                <element signature="e#8344#8490#0" />
+                <element signature="e#8492#9238#0" />
+                <element signature="e#9240#10233#0" />
+                <element signature="e#10235#11489#0" />
+                <element signature="e#16223#17658#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>refract</find>
+      <find>castRay</find>
+      <find>hitColor = li</find>
+      <find>hitColor</find>
+      <find>render</find>
+      <find>REFLECTION_AND_REFRACTION</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/whitted.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="News" type="b2602c69:ProjectViewProjectNode" />
+              <item name="News" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="News" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="News" TARGET_NAME="News" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="News" RUN_TARGET_NAME="News">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6532697-4fdc-476c-9ada-2cccd08244e4" name="Default Changelist" comment="" />
+      <created>1554997896505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554997896505</updated>
+      <workItem from="1554997898401" duration="7320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7320000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2092084" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="CMake" visible="true" weight="0.04109589" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/whitted.cpp</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/whitted.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="430" column="42" selection-start-line="430" selection-start-column="17" selection-end-line="430" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" />
+            <element signature="e#1350#2231#1" />
+            <element signature="e#1988#2090#0" />
+            <element signature="e#2092#2213#0" />
+            <element signature="e#2234#2525#1" />
+            <element signature="e#2528#2736#0" />
+            <element signature="e#2738#2839#0" />
+            <element signature="e#2841#2991#0" />
+            <element signature="e#2993#3103#0" />
+            <element signature="e#3105#3172#0" />
+            <element signature="e#3174#3291#0" />
+            <element signature="e#3293#3439#1" />
+            <element signature="e#3573#3652#1" />
+            <element signature="e#3655#4249#1" />
+            <element signature="e#4252#4641#0" />
+            <element signature="e#4643#5381#1" />
+            <element signature="e#4764#5180#0" />
+            <element signature="e#5183#5339#0" />
+            <element signature="e#5384#6024#0" />
+            <element signature="e#6026#8341#1" />
+            <element signature="e#6072#6755#0" />
+            <element signature="e#6758#7306#0" />
+            <element signature="e#7309#7960#0" />
+            <element signature="e#7963#8195#0" />
+            <element signature="e#8344#8490#0" />
+            <element signature="e#8492#9238#0" />
+            <element signature="e#9240#10233#0" />
+            <element signature="e#10235#11489#0" />
+            <element signature="e#16223#17658#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

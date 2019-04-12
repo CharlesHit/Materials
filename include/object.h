@@ -1,31 +1,79 @@
-#include <math.h>
+#include <cmath>
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
 #include "matrix.h"
 
+using namespace std;
+
 struct window_t
 {
+public:
 	int width, height;
-	inline window_t ( )
+	inline window_t (int w, int h ):width(w), height(h)
 	{
-		width = windowW;
-		height = windowH;
+		width = w;
+		height = h;
+	}
+};
+
+class Ray:public vec{
+public:
+	vec o, d;
+	double t_min, t_max;
+	double active;
+
+	/*
+	 * Create a new group of active rays
+	 * Note: only the sign bit of the active mask will be set, as this is all that's used by blendv
+	 * and movemask
+	 */
+	Ray ( vec o, vec d, double t_min_ = 0, double t_max_ = INFINITY )
+		: o ( o ), d ( d ), t_min (( t_min_ ) ), t_max ( ( t_max_ ) ),
+		active ( ( -0.f ) )
+	{
+	}
+	vec at ( int t ) const
+	{
+		return o + t * d;
 	}
 };
 
 class Camera {
 public:
-	vec UP, E, G, u, v, n;//n = GE = E - G
-	Camera (vec Eye, vec Gaze, vec Up):E(Eye), G(Gaze), UP(Up)
+	Camera () { }
+
+	vec E;
+	vec u, v, n;//n = E - G		
+	vec top_left, screen_du, screen_dv;
+	double aspect, fovy; //based on window's size.
+	Camera (vec E, vec G, vec UP, double aspect):E(E),fovy(60), aspect(1)
 	{	
+		//TODO: E-G or G-E?
 		n = E - G; n = n.normalized();
 		u = UP.cross(n).normalized();
 		v = n.cross(u).normalized();
+
+		float dim_y = 2.f * sin ( ( fovy / 2.f ) * ( M_PI ) / 180.f );
+		float dim_x = dim_y * aspect;
+		top_left = n - 0.5f * dim_x * u - 0.5f * dim_y * v;
+		screen_du = u * dim_x;
+		screen_dv = v * dim_y;
+	}
+
+	void generate_rays ( Ray &rays, const vec &samples ) const
+	{
+		rays.o = this->E;
+		rays.d = top_left;
+		const auto u_step = samples.m[1][1] * screen_du;
+		const auto v_step = samples.m[2][1] * screen_dv;
+		rays.d = rays.d + u_step + v_step;
+		rays.d.normalized ( );
+		rays.t_min = 0;
+		rays.t_max = INFINITY;
 	}
 };
 
-unsigned char frame[windowH*windowW * 3];
 int nobjects = 0;
 
 class Colour:public vec {
@@ -41,13 +89,13 @@ public:
 		*ptr_g = g;
 		*ptr_b = b;
 	}
-	inline to_sRGB() const {
+	inline Colour to_sRGB() const {
 		const double a = 0.055f;
 		const double b = 1.f / 2.4f;
 		Colour srgb;
 		for (int i = 0; i < 3; ++i)
-			if ((*this)[i] <= 0.0031308f)srgb[i] = 12.92f * (*this)[i];
-			else srgb[i] = (1.f + a) * std::pow((*this)[i], b) - a;
+			if (this->m[i][1] <= 0.0031308f)srgb.m[i][1] = 12.92f * this->m[i][1];
+			else srgb.m[i][1] = (1.f + a) * std::pow( this->m[i][1], b) - a;
 		return srgb;
 	}
 	inline bool isBlack() const {
@@ -58,9 +106,9 @@ public:
 	}
 };
 
-std::ostream& operator<<(std::ostream &os, const Colorf &c){
-	os << "Colorf: [r = " << c.* ptr_r << ", g = " << c.* ptr_r
-		<< ", b = " << c.* ptr_r << "] ";
+std::ostream& operator<<(std::ostream &os, const Colour &c){
+	os << "Colour: [r = " << *c.ptr_r << ", g = " << *c.ptr_r
+		<< ", b = " << *c.ptr_r << "] ";
 	return os;
 }
 
