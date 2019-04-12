@@ -488,20 +488,20 @@ Vec3 refract(const Vec3 &I, const Vec3 &N, const double &ior)
 
 void fresnel(const Vec3 &I, const Vec3 &N, const double &ior, double &kr)
 {
-	double cosi = clamp(-1, 1, dotProduct(I, N));
-	double etai = 1, etat = ior;
+	float cosi = clamp(-1, 1, dotProduct(I, N));
+	float etai = 1, etat = ior;
 	if (cosi > 0) {  std::swap(etai, etat); }
 	// Compute sini using Snell's law
-	double sint = etai / etat * sqrtf(std::max(0.0, 1 - cosi * cosi));
+	float sint = etai / etat * sqrtf(std::max(0.f, 1 - cosi * cosi));
 	// Total internal reflection
 	if (sint >= 1) {
 		kr = 1;
 	}
 	else {
-		double cost = sqrtf(std::max(0.0, 1 - sint * sint));
+		float cost = sqrtf(std::max(0.f, 1 - sint * sint));
 		cosi = fabsf(cosi);
-		double Rs = ((etat * cosi) - (etai * cost)) / ((etat * cosi) + (etai * cost));
-		double Rp = ((etai * cosi) - (etat * cost)) / ((etai * cosi) + (etat * cost));
+		float Rs = ((etat * cosi) - (etai * cost)) / ((etat * cosi) + (etai * cost));
+		float Rp = ((etai * cosi) - (etat * cost)) / ((etai * cosi) + (etat * cost));
 		kr = (Rs * Rs + Rp * Rp) / 2;
 	}
 }
@@ -1318,3 +1318,22 @@ inline std::ostream &operator<<( std::ostream &os, const Mat &v )
 {
 	;
 }
+
+class Camera : public Vec3
+{
+public:
+	double x, y, z;
+	Camera(double xx, double yy, double zz):x(xx),y(yy),z(zz){ }
+	friend Camera operator*( const Mat &v, const Camera &c )
+	{
+		double xx = c.x*v.m[1][1]+ c.x*v.m[1][2]+ c.x*v.m[1][3];
+		double yy = c.y*v.m[2][1]+ c.y*v.m[2][2]+ c.y*v.m[2][3];
+		double zz = c.z*v.m[3][1]+ c.z*v.m[3][2]+ c.z*v.m[3][3];
+		return {xx,yy,zz};
+	}
+
+	Vec3 toVec()
+	{
+		return {x,y,z};
+	}
+};

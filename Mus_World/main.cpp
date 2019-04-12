@@ -17,6 +17,8 @@ Windows options;
 std::vector<char> frame;
 std::vector<std::unique_ptr<Object>> objects;
 std::vector<std::unique_ptr<Light>> lights;
+Mat M;
+Camera camera = Camera(0,0,0);
 
 void render()
 {
@@ -24,7 +26,7 @@ void render()
 	char *pix = &frame[nChars - 1];
 	double scale = tan(deg2rad(options.fov * 0.5));
 	double imageAspectRatio = options.width / (double)options.height;
-	Vec3 orig(0);
+	Vec3 orig = camera.toVec();
 	for (uint32_t i = 0; i < options.height; ++i) {
 		for (uint32_t j = 0; j < options.width; ++j) {
 			// generate primary ray direction
@@ -67,6 +69,10 @@ void initGLUT(int argc, char** argv, Windows& window) {
 
 int main(int argc, char **argv)
 {
+	M.translated(1,2,3);//I rewrite it. See matrix.h.
+	camera = Camera(1,1,1);
+	camera = M * camera;
+
 	/* Set the background color and some other colors */
 	Vec3 IvoryWrite = Vec3(250.0 / 255.0, 255.0 / 255.0, 240.0 / 255.0);
 	Vec3 IvoryBlack = Vec3(41.0 / 255.0, 36.0 / 255.0, 33.0 / 255.0);
@@ -92,27 +98,31 @@ int main(int argc, char **argv)
 	Plane *mesh = new Plane(IvoryBlack, IvoryWrite, depth_mesh, near_mesh, far_mesh, left_mesh, right_mesh);
 	mesh->materialType = LAMBERT;
 
-
-	Sphere *sph1 = new Sphere(Vec3(-2, depth_mesh+2, -18), 2);
-	sph1->diffuseColor = IvoryWrite;
-	sph1->materialType = REFLECTION;
-
+	/* Build shperes. Default color is IvoryWrite, reflection material */
+	Sphere *sph1 = new Sphere(Vec3(-4, depth_mesh+1, -10), 1);//1.123 = root17 - 3
 	Sphere *sph2 = new Sphere(Vec3(3, depth_mesh+3, -14), 3);
-	sph2->diffuseColor = IvoryWrite;
-	sph2->materialType = REFLECTION;
-
-	Sphere *sph3 = new Sphere(Vec3(-6, depth_mesh+3, -12), 3);
-	sph3->diffuseColor = IvoryWrite;
-	sph3->materialType = REFLECTION;
+	Sphere *sph3 = new Sphere(Vec3(-5, depth_mesh+6, -16), 6);
+	Sphere *sph4 = new Sphere(Vec3(-1.5, depth_mesh+1, -10), 1);
+	Sphere *sph5 = new Sphere(Vec3(0.5, depth_mesh+1, -10), 1);
+	/*
+	 * You have fundamental materials could choose!
+	 *
+	 */
+	sph1->materialType = GRASS;
+	sph2->materialType = STEEL;
+	sph3->materialType = METAL;
+	sph4->materialType = LAMBERT;
 
 	objects.push_back(unique_ptr<Sphere>(sph1));
 	objects.push_back(unique_ptr<Sphere>(sph2));
 	objects.push_back(unique_ptr<Sphere>(sph3));
+	objects.push_back(unique_ptr<Sphere>(sph4));
+	objects.push_back(unique_ptr<Sphere>(sph5));
 
 	objects.push_back(unique_ptr<Plane>(mesh));
 
 	// setting up options
-	options = Windows(W, H, IvoryWrite, 4);
+	options = Windows(W, H, IvoryWrite, 2);
 
 	// finally, render
 	initGLUT(argc, argv, options);

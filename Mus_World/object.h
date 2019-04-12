@@ -8,7 +8,7 @@
 #include "matrix.h"
 #include "windows.h"
 
-enum MaterialType { LAMBERT, GRASS, REFLECTION };
+enum MaterialType { LAMBERT, GRASS, REFLECTION, METAL, STEEL };
 
 class Object
 {
@@ -42,7 +42,7 @@ class Cone : public Object{
 public:
 	Vec3 center;
 	double radius, height;
-	Cone(const Vec3 &c, const double &r);
+	Cone(const Vec3 &center, const double &radius,  const double &height);
 	bool intersect(const Vec3 &orig, const Vec3 &dir, double &tnear, uint32_t &index, Vec2 &uv) const override;
 	void getSurfaceProperties(const Vec3 &P, const Vec3 &I, const uint32_t &index, const Vec2 &uv, Vec3 &N, Vec2 &st) const override;
 };
