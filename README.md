@@ -17,6 +17,3 @@ Grass: The grass's color is decided by reflection and refraction. That is essent
 # Reference
 
 My most work followes _An improved illumination model for shaded display_, by T.Whitted.
-
-Based on his work, I mainly tried this four kinds of different materials:
-
