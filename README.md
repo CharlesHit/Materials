@@ -2,7 +2,7 @@ README.md
 
 # How to Compile
 
-Add freeGLUT or GLUT/OpenGL mannually. Then it shall work.
+Prerequisite: add freeGLUT or GLUT/OpenGL mannually.
 
 # Materials I did in this program
 
