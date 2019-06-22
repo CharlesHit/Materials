@@ -2,7 +2,7 @@ README.md
 
 # How to Compile
 
-Sorry that I haven't made a good CMAKE file, so you have to add freeGLUT or GLUT/OpenGL mannually. Then it shall be work.
+Add freeGLUT or GLUT/OpenGL mannually. Then it shall work.
 
 # Materials I did in this program
 
