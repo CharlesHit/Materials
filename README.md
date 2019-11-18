@@ -2,7 +2,7 @@
 
 A customized ray tracer, provided a high-contrast, cool-tones Rembrandt style rendering. Stylistically different with traditional ray tracer!
 
-！[alt test](sample_output/Screen Shot 2019-04-11 at 10.58.40 PM.png)
+![Repo_List](sample_output/Screen Shot 2019-04-11 at 10.58.40 PM.png)
 
 # How to Compile
 
